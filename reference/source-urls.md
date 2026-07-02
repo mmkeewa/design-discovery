@@ -116,7 +116,7 @@ https://www.awwwards.com/websites/{tone}/
 - `editorial` → `/websites/typography/`
 - `brutalist` → `/websites/brutalism/`
 - `motivational` → `/websites/colorful/` или `/websites/big-typography/`
-- `data-dense` → не используй Awwwards, используй Screen Gallery
+- `data-dense` → не используй Awwwards, используй scrn.gallery
 - `corporate` → не используй Awwwards, используй Behance
 
 **Инструкция:**
@@ -133,49 +133,44 @@ https://www.awwwards.com/websites/{tone}/
 
 ---
 
-## Godly
+## Recent (бывший Godly)
 
-**URL-шаблон:**
+Godly ребрендился в **Recent** — `godly.website` редиректит на `recent.design`. Структура другая: разделы `/websites`, `/app-store-screenshots`, `/app-icons` + фильтр-теги сверху (Web, Interface, Branding, Product, Typography, Motion, Illustration, 3D, Editorial). У каждой работы — permalink `recent.design/i/{slug}` (это и берём как ссылку) + исходный пост в X.
+
+**URL:**
 ```
-https://godly.website/?search={tone}
+https://recent.design/            # вся лента, фильтруй тегами
+https://recent.design/app-store-screenshots   # мобильные экраны — самое ценное для app-брифов
 ```
 
-Маппинг тонов на Godly-теги:
-- `brutalist` → `Brutalist`
-- `editorial` → `Big Type` + `Typography`
-- `motivational` → `Animated` + `Big Type`
-- `glassmorphism` → `Glassmorphism`
-- `playful` → `3D` + `Animated`
+Маппинг тонов на теги/разделы Recent:
+- `editorial` → тег `Typography` + `Editorial`
+- `motivational` / `motion` → тег `Motion`
+- app-скриншоты (любой мобильный бриф) → раздел `/app-store-screenshots`
+- `minimal` / `dark` → тег `Interface`, курируй по превью
 
 **Инструкция:**
-1. `navigate`
-2. `get_page_text`
-3. Каждая работа: название, превью, теги
-4. Скролл для больше результатов
+1. `navigate`. При первом заходе всплывает модалка подписки — закрой (`Escape`).
+2. Кликни нужный тег/раздел, скролль (превью ленивые — дай 1-2 c после скролла).
+3. `read_page` (filter `interactive`) — собери permalink'и `/i/{slug}` для понравившихся превью. `get_page_text` тут почти пустой (сайт image-heavy), опирайся на скриншот + ссылки.
 
-**Что вернуть:** 3-4 ссылки. Особенно ценны для motion-моментов.
+**Что вернуть:** 3-4 ссылки. Особенно ценны для motion-моментов и премиум app-эстетики.
 
 ---
 
-## Screen Gallery
+## Screen Gallery (scrn.gallery)
 
-**URL-шаблон:**
-```
-https://screen.gallery/category/{flow}/
-```
+Домен — **`scrn.gallery`** (не `screen.gallery` — тот мёртв). Галерея мобильных app-скриншотов.
 
-Маппинг flow на категории Screen Gallery:
-- `onboarding`, `tutorial` → `/category/onboarding/`
-- `paywall`, `checkout` → `/category/paywall/`
-- `settings`, `profile` → `/category/settings/`
-- `empty-state` → `/category/empty/`
-- `dashboard`, `analytics` → `/category/dashboard/`
-- `feed`, `list` → `/category/feed/`
+**URL:**
+```
+https://scrn.gallery/apps
+```
 
 **Инструкция:**
-1. `navigate`
-2. `get_page_text` — мобильные скриншоты
-3. Каждый: название приложения, скриншот, опциональное описание
+1. `navigate` на `/apps`.
+2. Отфильтруй/найди приложения, близкие к брифу (по индустрии/типу флоу), открой нужное — внутри полный набор экранов приложения.
+3. `get_page_text` + скриншот; собери: название приложения, экран, ссылку, превью.
 
 **Что вернуть:** 3-5 мобильных скриншотов. Особенно ценны для iOS-native feel.
 
@@ -311,6 +306,6 @@ https://ui8.net/search?q={tone}+{flow}
 3. **Дедупликация по компании** (Layer 1) — максимум 2 примера от одной компании
 4. **Минимум 8 уникальных позиций для показа.** Если меньше — расширь запрос или скажи пользователю, что результатов мало
 
-**Особый случай Layer 1 — почти пустая выдача.** Если во всём Layer 1 набралось **меньше 3 уникальных позиций** (источники за подпиской/логином, нет доступа), не застревай: сообщи причину и **автоматически перейди на Layer 2** — см. SKILL.md, Шаг 2, блок «Если Layer 1 ничего не нашёл». Layer 2 (Awwwards / Godly / Screen Gallery / FPS60) не требует этих подписок.
+**Особый случай Layer 1 — почти пустая выдача.** Если во всём Layer 1 набралось **меньше 3 уникальных позиций** (источники за подпиской/логином, нет доступа), не застревай: сообщи причину и **автоматически перейди на Layer 2** — см. SKILL.md, Шаг 2, блок «Если Layer 1 ничего не нашёл». Layer 2 (Awwwards / Recent / scrn.gallery / FPS60) не требует этих подписок.
 
 Если sanity check падает — не молчи. Расскажи пользователю, что произошло.

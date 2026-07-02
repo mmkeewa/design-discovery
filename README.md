@@ -34,7 +34,7 @@ npx skills add mmkeewa/design-discovery
 Три слоя, каждый с паузой на курацию:
 
 1. **Layer 1 — Patterns.** Mobbin, PageFlows, Liba, Benchmarkee. Что нравится? → выбираешь номерами
-2. **Layer 2 — Visual.** Awwwards, Godly, Screen Gallery, FPS60. Что нравится? → выбираешь
+2. **Layer 2 — Visual.** Awwwards, Recent (ex-Godly), scrn.gallery, FPS60. Что нравится? → выбираешь
 3. **Layer 3 — Mood.** Pinterest, Behance, Dribbble, UI8. Опциональный, после Layer 2 спрашивает: нужен ли
 
 Финальный артефакт — markdown-мудборд из твоих выборов с разделом "что взять" под каждой ссылкой и synthesis-блоком про общее направление.

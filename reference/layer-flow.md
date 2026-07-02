@@ -91,7 +91,7 @@ LAYER 1 — PATTERNS
 
 ```
 LAYER 2 — VISUAL
-Прошлась по Awwwards, Godly, Screen Gallery, FPS60.
+Прошлась по Awwwards, Recent, scrn.gallery, FPS60.
 
 Найдено: 12 визуальных референсов.
 
@@ -107,7 +107,7 @@ LAYER 2 — VISUAL
 🖼️ [preview]
 📌 Motion — slide+scale на step transitions
 
-━━━━━━ GODLY ━━━━━━
+━━━━━━ RECENT ━━━━━━
 
 [3] Robinhood Snacks
 🔗 https://...
@@ -116,7 +116,7 @@ LAYER 2 — VISUAL
 
 [...]
 
-━━━━━━ SCREEN GALLERY ━━━━━━
+━━━━━━ SCRN.GALLERY ━━━━━━
 
 [5] Calm app
 🔗 https://...

@@ -170,7 +170,7 @@ figma-generate-design with brief: {brief-slug}-moodboard.md
 📌 **Взять:** Motion — slide+scale на step transitions
 
 ### Calm app screenshot pack
-🔗 https://screen.gallery/category/onboarding/calm
+🔗 https://scrn.gallery/apps/calm
 🖼️ ![preview](...)
 📌 **Взять:** Один тёплый accent-цвет (коралл) + neutral palette
 

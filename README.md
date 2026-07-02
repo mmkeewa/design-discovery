@@ -31,13 +31,15 @@ npx skills add mmkeewa/design-discovery
 
 ## Процесс
 
-Три слоя, каждый с паузой на курацию:
+Три слоя подряд, **автономно, без пауз на курацию**. Файл в Figma создаётся сразу и наполняется вживую:
 
-1. **Layer 1 — Patterns.** Mobbin, PageFlows, Liba, Benchmarkee. Что нравится? → выбираешь номерами
-2. **Layer 2 — Visual.** Awwwards, Recent (ex-Godly), scrn.gallery, FPS60. Что нравится? → выбираешь
-3. **Layer 3 — Mood.** Pinterest, Behance, Dribbble, UI8. Опциональный, после Layer 2 спрашивает: нужен ли
+1. **Layer 1 — Patterns.** Mobbin, PageFlows, Benchmarkee → в раздел «Layer 1»
+2. **Layer 2 — Visual.** Awwwards, Recent (ex-Godly), scrn.gallery, FPS60 → в раздел «Layer 2»
+3. **Layer 3 — Mood.** Pinterest, Behance, Dribbble, UI8 → в раздел «Layer 3» (запускается автоматически)
 
-Финальный артефакт — markdown-мудборд из твоих выборов с разделом "что взять" под каждой ссылкой и synthesis-блоком про общее направление.
+Перед стартом skill просит проверить логины сервисов (Mobbin, Awwwards, Pinterest, Dribbble, Behance) и даёт ссылку на файл. **Твоя роль — следить за файлом**: если бенчи уходят не туда, остановить и поправить бриф. Ссылки в чат не сыплются, подтверждений по слоям нет.
+
+Финальный артефакт — визуальный борд в Figma (три раздела-слоя, карточка = скриншот + источник + ссылка). Текстовую markdown-сводку skill соберёт по запросу.
 
 ## Когда использовать
 

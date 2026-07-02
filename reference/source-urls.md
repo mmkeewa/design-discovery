@@ -62,38 +62,11 @@ https://pageflows.com/?search={flow}+{industry}
 
 ---
 
-## Liba
-
-**URL:**
-```
-https://liba.app/components/{component}
-```
-
-Если несколько компонентов — берём первый из списка как primary, перечисляем остальные как related.
-
-**Альтернатива (по типу UI):**
-```
-https://liba.app/components
-```
-Дальше `find` по `{component}` через accessibility tree.
-
-**Инструкция:**
-1. `navigate` на URL компонента
-2. Liba структурирует компоненты по категориям: navigation, forms, feedback, etc.
-3. `get_page_text` — извлеки галерею примеров
-4. Каждый пример: компания, скриншот, иногда видео-демо
-
-**Особенность Liba:** ориентирован на компонентный поиск, не на flow. Хорошо для специфичных запросов типа "как разные сервисы делают datepicker".
-
-**Что вернуть:** 3-5 примеров компонента.
-
----
-
 ## Benchmarkee
 
 **URL:**
 ```
-https://benchmarkee.com/search?q={flow}+across+apps
+https://benchmarkee.ru/search?q={flow}+across+apps
 ```
 
 **Инструкция:**

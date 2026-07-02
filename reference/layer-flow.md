@@ -46,23 +46,13 @@ LAYER 1 — PATTERNS
 🔗 https://pageflows.com/...
 📌 Иллюстрации персонажей между шагами
 
-━━━━━━ LIBA ━━━━━━
-
-[6] Wizard component — Klarna
-🔗 https://liba.app/...
-📌 Минималистичный прогресс-индикатор, маленькие точки
-
-[7] Wizard component — N26
-🔗 https://liba.app/...
-📌 Сегментированный прогресс-бар с подписями шагов
-
 ━━━━━━ BENCHMARKEE ━━━━━━
 
-[8] Onboarding flow benchmark: 7 fintech apps
-🔗 https://benchmarkee.com/...
+[6] Onboarding flow benchmark: 7 fintech apps
+🔗 https://benchmarkee.ru/...
 📌 Side-by-side: средняя длина 4 шага, 5 у premium-tier, 3 у challenger-банков
 
-[...остальные 6 примеров...]
+[...остальные примеры...]
 
 ━━━━━━━━━━━━━━━━━━━━━━
 

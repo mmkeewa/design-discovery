@@ -154,12 +154,8 @@ figma-generate-design with brief: {brief-slug}-moodboard.md
 🔗 https://pageflows.com/flows/step-onboarding
 📌 **Взять:** Разговорный copywriting, "Hey, what do you want to call your money?"
 
-### N26 — Wizard component
-🔗 https://liba.app/components/wizard/n26
-📌 **Взять:** Сегментированный прогресс-бар с подписями шагов
-
 ### Benchmarkee — 7 fintech apps onboarding
-🔗 https://benchmarkee.com/fintech-onboarding-2024
+🔗 https://benchmarkee.ru/fintech-onboarding-2024
 📌 **Взять:** Средняя длина 4 шага, 5 у premium-tier, 3 у challenger-банков
 
 ---
